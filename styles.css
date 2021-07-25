@@ -1,0 +1,91 @@
+ #brochure {
+    display: flex;
+    height: 100%;
+    /* border: 1px solid black; */
+} 
+
+/*parent > children
+below will select all the children elements that have
+that specific parent*/
+#brochure > div {
+    border-top: 15px solid black;
+    width: 22%;
+    height: 100%;
+    
+}
+
+#follow{
+    margin-top: 30%;
+}
+
+#socialCites{
+    text-align: center;
+    margin-bottom: 25%;
+    text-decoration: none;
+}
+
+.contact{
+    
+    margin-top:10%;
+    margin-bottom: 66.2%;
+    
+}
+
+.vetFam{
+    margin-top: 20%;  
+    margin-bottom: 38.7%;
+    margin-left: 3%;
+ }
+
+
+.col1{
+    
+    height: 100%;
+    border-right:5px solid black;
+    border-left: 15px solid black;
+    border-bottom: 30px solid black; 
+    
+}
+
+.col2{
+     
+    border-right:5px solid black;
+    border-bottom: 30px solid black;
+    height: 100%;
+    
+}
+
+h2{
+    text-align: center;
+    text-decoration:underline;
+}
+
+.col3{
+    height:100%;
+    border-right:65px solid black;
+    border-bottom: 30px solid black;
+}
+
+#silentLines{
+    border-top:5px solid black;
+    margin-left: 5px;
+    width: 255px;
+    border-bottom: 5px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+
+}
+h3{
+    text-transform: capitalize;
+    font-family: Onamanopee;
+}
+
+
+#photoimg{
+    margin-left: 3%;
+    margin-bottom: 30%;
+}
+
+
+
